@@ -10,6 +10,10 @@ body {
     max-height: 100vh;
     background-image: url("website-background-free-abstract.jpg");
     background-repeat: no-repeat;
+    min-height: 100vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: black;
     text-align: center;
@@ -24,7 +28,10 @@ em{
     font-size: 1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .container{
+    position: relative;
+    top: 50%;
     width: auto;
     max-width: 900px;
     padding: 20px 30px;
